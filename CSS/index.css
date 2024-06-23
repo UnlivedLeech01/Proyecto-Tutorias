@@ -1,0 +1,54 @@
+/* index.css */
+html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #6cb8ff, rgba(204, 229, 255, 0.8), rgb(230, 245, 255), rgba(255, 255, 255, 0.8));
+}
+
+.feature-box {
+    padding: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+    background-color: #245d96;
+    color: #fff;
+}
+
+.feature-box h3 {
+    font-weight: bold;
+}
+
+.feature-box p {
+    font-size: 16px;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.read-more-btn {
+    margin-top: 10px;
+}
+
+.modal-content {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header h5 {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.modal-body p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
